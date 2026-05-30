@@ -3,8 +3,7 @@ workflows:
     name: Android Workflow
 
     environment:
-      vars:
-        JAVA_HOME: /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+      java: 17
 
     scripts:
       - npm install
